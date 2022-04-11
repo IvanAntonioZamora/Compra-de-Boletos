@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+nav{
+    background-color: aquamarine;
+}
+main{
+    background-color: blanchedalmond;
+}
+aside{
+    background-color: blue;
+}
+
+footer{
+    bottom: 0;
+    margin-top: auto;
+}
